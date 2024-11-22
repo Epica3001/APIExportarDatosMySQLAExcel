@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ExportarDatosAExcelAPI</RootNamespace>
+    <AssemblyName>ExportarDatosAExcelAPI</AssemblyName>
+    <Company>ExportarDatosAExcelAPI</Company>
+    <Product>ExportarDatosAExcelAPI</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <!-- Referencias necesarias para ASP.NET Core -->
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="dotenv.net" Version="3.2.1" />
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+</Project>

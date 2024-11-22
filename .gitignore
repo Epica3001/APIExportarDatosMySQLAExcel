@@ -1,0 +1,21 @@
+# Archivos y carpetas de compilación
+bin/
+obj/
+*.exe
+*.dll
+
+# Configuración específica de usuario
+.vs/
+*.user
+*.suo
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Configuración del sistema operativo
+Thumbs.db
+.DS_Store
+
+# Archivos de Variables de Entorno
+.env
