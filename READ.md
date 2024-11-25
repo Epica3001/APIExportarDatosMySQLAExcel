@@ -15,6 +15,7 @@
 ------------------
 
 ## **ESTRUCTURA DEL PROYECTO**
+```plaintext
 ExportarDatosAExcelAPI
 │ 
 ├── Controllers
@@ -30,7 +31,7 @@ ExportarDatosAExcelAPI
 ├── appsettings.json           #Configuración general del proyecto (sin datos sensibles)
 ├── Program.cs                 #Punto de entrada del programa
 └── .env                       #Variables de entorno (excluidas del control de versiones)
-
+```
 ------------------
 
 ## **REQUISITOS PREVIOS**
